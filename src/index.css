@@ -21,7 +21,9 @@
 .main{
   
   margin-top: 5%;
-  display: grid;
+  display: flex;
+
+  
 
 
 }
@@ -64,37 +66,17 @@
     transform: translate3d(2px, 0, 0);
   }
 }
-.navbar-toggler{
-  background-color: aliceblue;
-}
-.logos {
-  display: flex;
-  
-
-}
 
 .logos img {
-  
-  width: 50px; /* Örnek bir genişlik değeri */
+  width: 60px; /* Adjust this value to your desired logo width */
+  height: auto; /* Automatically adjust the height based on the width */
 }
+
+
 body{
   background-color:#e3e3e3; ;
 }
 
-.html {width: 90%; background-color: #ec7c0d;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 95%; background-color: #f9f10d;} /* Red */
-.tailwind {width: 90%; background-color: #808080;} /* Dark Grey */
-.react {width: 85%; background-color: #012050;} /* Dark Grey */
-
-.skills{
-  color: white;
-  margin-top: 10px;
-  border: 10px solid transparent;
-  border-radius: 100px;
-  margin-bottom: 10px;
-  
-}
 .title-project{
   font-size: 35px;
   text-align: center;
@@ -168,4 +150,6 @@ background-color: #e3e3e383;
   }
 }
 
-
+.ml-auto{
+margin-left: auto !important;
+}

@@ -7,14 +7,14 @@ import htmllogo from "./logos/HTML.svg"
 import jslogo from "./logos/JavaScript.svg"
 import tailwind from "./logos/tailwind.svg"
 import reactLogo from "./logos/react.svg"
-import figma from "./logos/Figma.svg"
+
 
 
 
 
 const Features = () => {
         return (
-          <Container className='main'>
+          <Container className='F'>
           <h4 style={{marginBottom:"3%"}}>My Skills</h4>
             <Row className='logos'>
             <Col>
@@ -30,17 +30,15 @@ const Features = () => {
                 <p className='text-logo'>Html</p>
               </Col>
               <Col>
-                <img src={jslogo} alt="JavaScript Logo" />
+                <img  src={jslogo} alt="JavaScript Logo" />
                 <p className='text-logo'>JavaScript</p>
               </Col>
               <Col>
                 <img src={tailwind} alt="Tailwind Logo" />
                   <p className='text-logo'>Tailwind</p>
               </Col>
-              <Col>
-                <img src={figma} alt="Figma Logo" />
-                  <p className='text-logo'>Figma</p>
-              </Col>
+           
+
             </Row>
           </Container>
         );
