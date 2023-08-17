@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap');
+
+.nav-item {
+  font-size: 22px;
+}
+.nav-link{
+  color: white;
+}
+.navbar-brand{
+  font-family: 'Exo', sans-serif;
+  font-size: 40px;
+  color:white !important ;
+  
+}
+.nav-link:hover{
+  background-color: rgb(13, 112, 210);
+  transition: transform 0.8s ease;
+}
+
+.main{
+  
+  margin-top: 5%;
+  display: grid;
+
+
+}
+.container{
+  font-family: 'Space Grotesk', sans-serif;
+
+}
+.kevphoto {
+  display: flex;
+  margin: auto; 
+  width: 15%;
+  
+  border: 10px solid #ffffff;
+  border-radius: 50%;
+  box-sizing: border-box;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.kevphoto:hover {
+  transform: scale(1.05);
+  animation: shake 0.5s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  border-color: #0d70d2;
+}
+
+@keyframes shake {
+  30%, 50% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 40%, 70% {
+    transform: translate3d(-3px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(2px, 0, 0);
+  }
+}
+.navbar-toggler{
+  background-color: aliceblue;
+}
+.logos {
+  display: flex;
+  
+
+}
+
+.logos img {
+  
+  width: 50px; /* Örnek bir genişlik değeri */
+}
+body{
+  background-color:#e3e3e3; ;
+}
+
+.html {width: 90%; background-color: #ec7c0d;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 95%; background-color: #f9f10d;} /* Red */
+.tailwind {width: 90%; background-color: #808080;} /* Dark Grey */
+.react {width: 85%; background-color: #012050;} /* Dark Grey */
+
+.skills{
+  color: white;
+  margin-top: 10px;
+  border: 10px solid transparent;
+  border-radius: 100px;
+  margin-bottom: 10px;
+  
+}
+.title-project{
+  font-size: 35px;
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 3%;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.cards-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card:hover{
+background-color: #e3e3e383;
+
+
+}
+.connect-container{ 
+    margin-top: 5%;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10%;
+  }
+  .button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+
+}
+
+.buttonGit:hover{
+  background-color: #6e5494;
+  transition: transform 0.8s ease;
+  color: white;
+}
+.buttonLinkedin:hover{
+  background-color: #0A66C2;
+  color: white;
+}
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-heart {
+  color: red;
+  filter: blur(0.5px); 
+  margin-left: 5px; 
+  animation: heartbeat 1.5s infinite; 
+}
+
+@keyframes heartbeat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
